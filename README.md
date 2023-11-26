@@ -1,68 +1,70 @@
-# Cleanfolio
+# Getting Started with Create React App
 
-Cleanfolio is a portfolio template built with React. However, if you prefer a template built with HTML, CSS, and JavaScript, you can check out [Cleanfolio Minimal](https://github.com/rajshekhar26/cleanfolio-minimal).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Preview
+## Available Scripts
 
-[![Imgur](https://imgur.com/FwDMNEM.gif)](https://rajshekhar26.github.io/cleanfolio)
+In the project directory, you can run:
 
-[Live Demo](https://rajshekhar26.github.io/cleanfolio)
+### `npm start`
 
-## Instructions
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Setup
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-```shell
-git clone https://github.com/rajshekhar26/cleanfolio
-cd cleanfolio
-```
+### `npm test`
 
-If you use [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm), execute:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-```shell
-nvm install
-nvm use
-```
+### `npm run build`
 
-Or:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-```shell
-fnm install
-fnm use
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-To install and launch the project, run these commands:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```shell
-yarn
-yarn start
-```
+### `npm run eject`
 
-### How to Use
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- Open the `public/index.html` file and replace:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-`<title>John Smith</title>` with `<title>Your Name</title>`.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- Open the `src/portfolio.js` file and make the necessary changes.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
-- In the `package.json` file, update:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-`"homepage": "https://rajshekhar26.github.io/cleanfolio"`
+### `npm run build` fails to minify
 
-to `"homepage": "https://yourusername.github.io"`.
-
-- Push the changes to your repository.
-
-- To build and deploy, run the following commands:
-
-```shell
-yarn build
-yarn deploy
-```
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
