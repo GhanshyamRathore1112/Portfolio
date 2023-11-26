@@ -6,7 +6,7 @@ const header = {
 
 const about = {
   
-  name: 'Ghanhyam Rathore',
+  name: 'Ghanshyam Rathore',
   role: 'Full Stack Developer',
   description:
     'Welcome to my portfolio! I am a final-year B.Tech undergrad passionate about web development. Proficient in MERN Stack, TypeScript, and Next.js, I bring creative solutions to life. With a solid foundation in Data Structures and Algorithms, I thrive on tackling challenges head-on. Explore my projects and discover how my skills and enthusiasm converge to create impactful digital experiences.',
